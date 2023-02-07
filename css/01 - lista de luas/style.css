@@ -1,0 +1,20 @@
+li {
+  color: rgb(131, 216, 131);
+}
+h1 {
+  color: rgb(136, 48, 14);
+  font-size: 50px;
+  background-color: grey;
+  /*border-color: yellow;
+  border-width: 2px;
+  border-style: solid; /*dashed*/
+  border: 2px solid yellow;
+}
+h4 {
+  color: #ff4576;
+}
+body {
+  background-image: url(https://s1.static.brasilescola.uol.com.br/be/2020/10/foguete.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /*capa*/
+}

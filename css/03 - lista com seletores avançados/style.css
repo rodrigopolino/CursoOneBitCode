@@ -1,0 +1,43 @@
+* {
+  border: 2px;
+}
+li a {
+  color: orange;
+}
+/*a que for filha de li;*/
+li > a {
+  color: aqua;
+}
+/*todo h4 que vier depois de h4*/
+h1 + h4 {
+  color: blue;
+}
+a[href="/recibo"] {
+  color: orange;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: beige;
+}
+/* todos os li em 2º lugar
+   odd = todo li ímpar
+   */
+li:nth-of-type(2) {
+  color: purple;
+}
+li:nth-of-type(odd) {
+  color: chartreuse;
+}
+li::first-letter {
+  font-weight: bond;
+}
+/*Relevância
+-inline
+-id
+-classe
+-elemento (li, a, p)
+
+empate: última declaração
+*/
